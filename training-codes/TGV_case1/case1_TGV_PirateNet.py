@@ -1,9 +1,4 @@
-# ns2d_tgv_piratenet_rebuild_outputs.py
-# Rebuilt PirateNet-style PINN for 2D incompressible Navier-Stokes Taylor-Green MMS benchmark.
-# Main purpose:
-#   1) keep the original Taylor-Green MMS physics/training logic stable;
-#   2) standardize outputs for revision/rebuttal experiments;
-#   3) record complete field data, error metrics, loss components, and computational cost.
+
 
 import os
 import csv
