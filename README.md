@@ -1,4 +1,4 @@
-# EJMB PINN Four-Case Study
+# Tempoal LSTM-PINN Four-Case Study
 
 Training codes and experimental results for four physics-informed neural network benchmark cases.
 
