@@ -1,12 +1,4 @@
-# ns2d_rbc_param_ann_pinn_rebuild_outputs.py
-# Rebuilt Parameter-matched ANN-PINN training code for 2D Rayleigh-Benard Convection MMS benchmark
-# Unified output standard for seven-model comparison:
-#   - field_data txt files for u, v, p, theta, speed
-#   - overall and field-wise metrics
-#   - cost summary with hardware / CUDA / GPU memory information
-#   - threshold cost for fixed RelL2 levels
-#   - full loss history including PDE, BC, IC, data loss, and per-field data loss
-#   - figures, grid.npz, best_model.pt, final_model.pt
+
 
 import os
 import csv
