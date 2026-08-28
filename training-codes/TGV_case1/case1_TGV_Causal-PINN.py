@@ -1,10 +1,4 @@
-# ns2d_tgv_causal_pinn_rebuild_outputs.py
-# Rebuilt Causal-PINN for 2D incompressible Navier-Stokes Taylor-Green MMS benchmark.
-# Main purpose:
-#   1) keep the original Taylor-Green MMS physics/training logic stable;
-#   2) align network capacity and training parameters with the vanilla TGV PINN baseline;
-#   3) add temporal causal weighting only to the PDE residual term;
-#   4) standardize outputs for revision/rebuttal experiments.
+
 
 import os
 import csv
