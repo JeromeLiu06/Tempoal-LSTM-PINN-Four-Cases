@@ -1,9 +1,4 @@
-# ns2d_cavity_reatten_pinn_rebuild_outputs.py
-# Rebuilt PirateNet for 2D incompressible Navier-Stokes lid-driven cavity MMS benchmark.
-# Main purpose:
-#   1) keep the original cavity MMS physics/training logic stable;
-#   2) standardize outputs for revision/rebuttal experiments;
-#   3) record complete field data, error metrics, loss components, and computational cost.
+
 
 import os
 import csv
