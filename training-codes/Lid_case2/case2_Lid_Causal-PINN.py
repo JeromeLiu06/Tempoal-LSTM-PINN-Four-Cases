@@ -1,12 +1,4 @@
-# ns2d_cavity_causal_pinn_rebuild_outputs.py
-# Rebuilt Causal-PINN-style baseline for the 2D incompressible Navier-Stokes
-# lid-driven cavity MMS benchmark.
-# Main purpose:
-#   1) keep the original cavity MMS physics/training logic stable;
-#   2) standardize outputs for revision/rebuttal experiments;
-#   3) keep the network architecture aligned with vanilla PINN;
-#   4) apply residual-curriculum weighting over ordered spatial chunks because
-#      this steady cavity case has no physical time coordinate.
+
 
 import os
 import csv
